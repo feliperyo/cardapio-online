@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { ContainerItemCardapio, InfosItemCardapio } from './styles'
 import { Price } from './styles'
 

@@ -17,6 +17,7 @@ function App() {
       <Navegacao alterarPaginaSelecionada={alterarPaginaSelecionada} />
       <Menu>
         {sectionsMenu[paginaSelecionada].map((prato) => (
+          // eslint-disable-next-line react/jsx-key
           <ItemCardapio
             nome={prato.nome}
             preco={prato.preco}
