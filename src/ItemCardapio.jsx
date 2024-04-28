@@ -1,4 +1,5 @@
 import { ContainerItemCardapio, InfosItemCardapio } from './styles'
+import { Price } from './styles'
 
 function ItemCardapio({ nome, descricao, preco, imagem }) {
     return (
@@ -7,7 +8,7 @@ function ItemCardapio({ nome, descricao, preco, imagem }) {
                 <InfosItemCardapio>
                     <h2>{nome}</h2>
                     <p>{descricao}</p>
-                    <p>{preco}</p>
+                    <Price>{preco}</Price>
                 </InfosItemCardapio>
                 <img src={imagem} />
             </ContainerItemCardapio>
