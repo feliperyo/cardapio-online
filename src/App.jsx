@@ -2,6 +2,7 @@ import React from 'react'
 import restauranteImg from './assets/restaurante-img.jpg'
 import Navegacao from './navegacao'
 import ItemCardapio from './ItemCardapio'
+import Footer from './footer'
 
 import { Body, Capa, Menu } from './styles'
 
@@ -26,6 +27,7 @@ function App() {
           />
         ))}
       </Menu>
+      <Footer></Footer>
     </Body>
   )
 }

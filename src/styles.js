@@ -100,3 +100,43 @@ export const Price = styled.p`
     font-size: 22px;
     font-weight: 700;
     `
+
+export const Bg = styled.div`
+    background-color: #1f1f1f;
+    position: relative;
+    bottom: 0;
+    margin-top: 50px;
+    width: 100%;
+    max-height: 15rem;
+    color: #fff;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+    p{
+     opacity: .8;
+    }
+    `
+
+export const DivInsta = styled.div`
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    `
+
+export const Insta = styled.img`
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    
+    &:hover{
+      width: 55px;
+      height: 55px;
+      transition: .2s;
+    }
+    `

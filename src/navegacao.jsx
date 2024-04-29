@@ -1,5 +1,6 @@
 import { Buttons, Button } from './styles'
 
+// eslint-disable-next-line react/prop-types
 function Navegacao({ alterarPaginaSelecionada }) {
 
 
